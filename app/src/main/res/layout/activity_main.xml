@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sdd2"
+    android:fadingEdge="none"
+    android:focusableInTouchMode="false"
+    android:hapticFeedbackEnabled="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="209dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/name"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="@string/name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/email"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_weight="1"
+        android:autoText="false"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/position"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:entries="@array/Positions" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/phone"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/phone"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="156dp"
+        android:layout_height="17dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/button" />
+
+</LinearLayout>

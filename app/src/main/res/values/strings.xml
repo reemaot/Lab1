@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Lab1</string>
+    <string-array name="Positions">
+        <item>Employee</item>
+        <item>Manager</item>
+        <item>Trainee</item>
+    </string-array>
+
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="position">Position</string>
+    <string name="phone">Phone</string>
+    <string name="button">FLIP CARD</string>
+
+
+    <string name="name1">Reema AlOtaibi</string>
+    <string name="email1">Email: ralotaibi@alfaisal.edu</string>
+    <string name="position1">Department of AI</string>
+    <string name="phone11">Phone: 011-256-7800</string>
+    <string name="website">Website: http://sdaia.gov.sa</string>
+</resources>

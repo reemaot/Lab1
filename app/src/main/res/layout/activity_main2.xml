@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/artwork"
+    tools:context=".MainActivity2">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="204dp"
+        android:layout_height="95dp"
+        app:srcCompat="@drawable/sdaia1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="313dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="227dp"
+        android:layout_marginTop="117dp"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="183dp"
+        android:fontFamily="serif-monospace"
+        android:text="@string/name1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#029789"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="223dp"
+        android:layout_height="21dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="163dp"
+        android:layout_marginEnd="224dp"
+        android:layout_marginBottom="147dp"
+        android:fontFamily="serif-monospace"
+        android:text="@string/position1"
+        android:textColor="#313131"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="343dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="115dp"
+        android:fontFamily="serif-monospace"
+        android:shadowColor="#FFFFFF"
+        android:text="@string/email1"
+        android:textColor="#313131"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="263dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="222dp"
+        android:layout_marginEnd="184dp"
+        android:layout_marginBottom="89dp"
+        android:fontFamily="serif-monospace"
+        android:text="@string/phone11"
+        android:textColor="#313131"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="298dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="273dp"
+        android:layout_marginEnd="350dp"
+        android:layout_marginBottom="21dp"
+        android:fontFamily="serif-monospace"
+        android:text="@string/website"
+        android:textColor="#505050"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</RelativeLayout>
